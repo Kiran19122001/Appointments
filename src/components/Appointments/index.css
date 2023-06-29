@@ -1,0 +1,108 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+
+.card-containr {
+    min-height: 500px;
+    width: 1023px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 1px solid #ffffff;
+    overflow: auto;
+}
+
+.head {}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.labels-input {
+    color: #b5b7c4;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px 5px 5px 10px;
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid #171f46;
+    border-radius: 5px;
+}
+
+.add-button {
+    margin-top: 25px;
+    border: none;
+    background: #8b5cf6;
+    color: #ffffff;
+    padding: 8px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image-container {
+    padding-left: 400px;
+    margin-top: -313px;
+}
+
+.image-app {
+    padding-top: 20px;
+    height: 311px;
+    width: 470px;
+}
+
+.line {
+    height: 1px;
+    background-color: #b5b7c4;
+    width: 92%;
+    margin-top: 10px;
+}
+
+.starred-button {
+    border: 1px solid #9897f0;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #8b5cf6;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-right: 80px;
+    height: 30px;
+}
+
+.below-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.list-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.error {
+    color: red;
+    width: 232px;
+}
+
+main {
+    font-size: 20px;
+    font-weight: 700;
+}
